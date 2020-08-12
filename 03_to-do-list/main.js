@@ -46,7 +46,15 @@ document.addEventListener("DOMContentLoaded", function(){
           //console.log("yes")
           // dragItem.addEventListener('dragend', function(){
             // console.log("end")
-            //console.log(element)
+            // console.log(element)
+            // 如果在上面，就要放在上面；如果在下面，就放在下面
+            // offset-top
+            // if (){
+            //   element.insertAdjacentElement("afterend", dragItem)
+            // }
+            // else(){
+            //   element.insertAdjacentElement("beforebegin", dragItem)
+            // }
             element.after(dragItem)
           }
         
